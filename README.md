@@ -7,13 +7,13 @@ versioned on its own, and an app build always downloads the exact core version i
 
 ## Cores
 
-| Core | Console | Licence | Version | Upstream | Licence text |
-|---|---|---|---|---|---|
-| SwanStation | PlayStation | GPL-3.0 | v1 | [libretro/swanstation](https://github.com/libretro/swanstation) | [LICENSE-swanstation.txt](LICENSE-swanstation.txt) |
-| YabaSanshiro | Sega Saturn | GPL-2.0-or-later | v1 | [libretro/yabause/tree/yabasanshiro](https://github.com/libretro/yabause/tree/yabasanshiro) | [LICENSE-yabasanshiro.txt](LICENSE-yabasanshiro.txt) |
-| Flycast | Dreamcast | GPL-2.0-or-later (GPL-3.0 as built) | v1 | [flyinghead/flycast](https://github.com/flyinghead/flycast) | [LICENSE-flycast.txt](LICENSE-flycast.txt) |
-| FCEUmm | NES | GPL-2.0-or-later | v1 | [libretro/libretro-fceumm](https://github.com/libretro/libretro-fceumm) | [LICENSE-fceumm.txt](LICENSE-fceumm.txt) |
-| Mesen-S | SNES | GPL-3.0-or-later | v1 | [libretro/Mesen-S](https://github.com/libretro/Mesen-S) | [LICENSE-mesen-s.txt](LICENSE-mesen-s.txt) |
+| Core | Console | Licence | Our build | Upstream | Upstream commit | Licence text |
+|---|---|---|---|---|---|---|
+| SwanStation | PlayStation | GPL-3.0 | v1 | [libretro/swanstation](https://github.com/libretro/swanstation) | [`89309cc`](https://github.com/libretro/swanstation/commit/89309ccf3c5c97150777730778a820745669fc45) | [LICENSE-swanstation.txt](LICENSE-swanstation.txt) |
+| YabaSanshiro | Sega Saturn | GPL-2.0-or-later | v1 | [libretro/yabause/tree/yabasanshiro](https://github.com/libretro/yabause/tree/yabasanshiro) | [`f448097`](https://github.com/libretro/yabause/commit/f448097b69a6037246a08e9dc09eabaa420d7893) | [LICENSE-yabasanshiro.txt](LICENSE-yabasanshiro.txt) |
+| Flycast | Dreamcast | GPL-2.0-or-later (GPL-3.0 as built) | v1 | [flyinghead/flycast](https://github.com/flyinghead/flycast) | [`c0f2cf4`](https://github.com/flyinghead/flycast/commit/c0f2cf4319d6c77d577599906ca0a90627a3afc8) | [LICENSE-flycast.txt](LICENSE-flycast.txt) |
+| FCEUmm | NES | GPL-2.0-or-later | v1 | [libretro/libretro-fceumm](https://github.com/libretro/libretro-fceumm) | [`afe65ef`](https://github.com/libretro/libretro-fceumm/commit/afe65ef1b4328c0bf2df05fb47a6b31a45bccf47) | [LICENSE-fceumm.txt](LICENSE-fceumm.txt) |
+| Mesen-S | SNES | GPL-3.0-or-later | v1 | [libretro/Mesen-S](https://github.com/libretro/Mesen-S) | [`1d475ab`](https://github.com/libretro/Mesen-S/commit/1d475abd174d16ecb1fb030961ff26076ab51ee6) | [LICENSE-mesen-s.txt](LICENSE-mesen-s.txt) |
 
 All cores are built for Android arm64 (Meta Quest 3 / 3S) only. They will not run on other platforms.
 
