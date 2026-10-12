@@ -1,0 +1,81 @@
+{
+    "schema":  1,
+    "repo":  "https://github.com/ProjectLightGun/projectlightgun-cores",
+    "cores":  {
+                  "swanstation":  {
+                                      "name":  "SwanStation (PlayStation 1)",
+                                      "version":  1,
+                                      "file":  "libswanstation_libretro_android.so",
+                                      "url":  "https://github.com/ProjectLightGun/projectlightgun-cores/releases/download/swanstation-v1/libswanstation_libretro_android.so",
+                                      "sha256":  "517a6f8bc39fa1fa5c1973b36c816a5980ca50805a1c540b22f165ba7e0c5406",
+                                      "size":  5578344,
+                                      "source_url":  "https://github.com/ProjectLightGun/projectlightgun-cores/releases/download/swanstation-v1/swanstation-v1-source.tar.gz",
+                                      "source_sha256":  "909b5fb07421df602ea2551ba6509f33d6e98b16cb69d024167bbd588d06ffde",
+                                      "source_size":  8990424,
+                                      "license":  "GPL-3.0",
+                                      "license_url":  "https://github.com/ProjectLightGun/projectlightgun-cores/blob/main/cores/swanstation/LICENSE",
+                                      "upstream":  "https://github.com/libretro/swanstation",
+                                      "upstream_commit":  "89309ccf3c5c97150777730778a820745669fc45"
+                                  },
+                  "yabasanshiro":  {
+                                       "name":  "YabaSanshiro (Sega Saturn)",
+                                       "version":  1,
+                                       "file":  "libyabasanshiro_libretro_android.so",
+                                       "url":  "https://github.com/ProjectLightGun/projectlightgun-cores/releases/download/yabasanshiro-v1/libyabasanshiro_libretro_android.so",
+                                       "sha256":  "968c7d20ba30fbfa8d91e64267cfe8a35f92a1ec0709e5346d9abf6cea2939e3",
+                                       "size":  1571160,
+                                       "source_url":  "https://github.com/ProjectLightGun/projectlightgun-cores/releases/download/yabasanshiro-v1/yabasanshiro-v1-source.tar.gz",
+                                       "source_sha256":  "01f033533475f5f62e02e92064d747d79e42a741e56ca7e7c6d56c7d258996e2",
+                                       "source_size":  55048867,
+                                       "license":  "GPL-2.0-or-later",
+                                       "license_url":  "https://github.com/ProjectLightGun/projectlightgun-cores/blob/main/cores/yabasanshiro/LICENSE",
+                                       "upstream":  "https://github.com/libretro/yabause (branch yabasanshiro)",
+                                       "upstream_commit":  "f448097b69a6037246a08e9dc09eabaa420d7893"
+                                   },
+                  "flycast":  {
+                                  "name":  "Flycast (Dreamcast)",
+                                  "version":  1,
+                                  "file":  "libflycast_libretro_android.so",
+                                  "url":  "https://github.com/ProjectLightGun/projectlightgun-cores/releases/download/flycast-v1/libflycast_libretro_android.so",
+                                  "sha256":  "7f205947246574eba1b6fbd0fc75a114ddf2109ef996dfe696e436366b9d5937",
+                                  "size":  24040360,
+                                  "source_url":  "https://github.com/ProjectLightGun/projectlightgun-cores/releases/download/flycast-v1/flycast-v1-source.tar.gz",
+                                  "source_sha256":  "01a9c43ac52629c504235c8ffb1e2ab3e3fb89c412736ebcb0e77a65fb8574f6",
+                                  "source_size":  108980756,
+                                  "license":  "GPL-2.0-or-later (binary as a whole GPL-3.0: contains GPL-3.0 libcdio/xBRZ files)",
+                                  "license_url":  "https://github.com/ProjectLightGun/projectlightgun-cores/blob/main/cores/flycast/LICENSE",
+                                  "upstream":  "https://github.com/flyinghead/flycast",
+                                  "upstream_commit":  "c0f2cf4319d6c77d577599906ca0a90627a3afc8"
+                              },
+                  "fceumm":  {
+                                 "name":  "FCEUmm (NES)",
+                                 "version":  1,
+                                 "file":  "libfceumm_libretro_android.so",
+                                 "url":  "https://github.com/ProjectLightGun/projectlightgun-cores/releases/download/fceumm-v1/libfceumm_libretro_android.so",
+                                 "sha256":  "baa3c329d0354c785495188541121969c3af8c8f2b01b85882ed0149b7053681",
+                                 "size":  2878248,
+                                 "source_url":  "https://github.com/ProjectLightGun/projectlightgun-cores/releases/download/fceumm-v1/fceumm-v1-source.tar.gz",
+                                 "source_sha256":  "89d7fe2f800adcf433342eba307c542ee297a6eb47d01d7698b41e495ff8b868",
+                                 "source_size":  1405915,
+                                 "license":  "GPL-2.0-or-later",
+                                 "license_url":  "https://github.com/ProjectLightGun/projectlightgun-cores/blob/main/cores/fceumm/LICENSE",
+                                 "upstream":  "https://github.com/libretro/libretro-fceumm",
+                                 "upstream_commit":  "afe65ef1b4328c0bf2df05fb47a6b31a45bccf47"
+                             },
+                  "mesen-s":  {
+                                  "name":  "Mesen-S (SNES)",
+                                  "version":  1,
+                                  "file":  "libmesen-s_libretro_android.so",
+                                  "url":  "https://github.com/ProjectLightGun/projectlightgun-cores/releases/download/mesen-s-v1/libmesen-s_libretro_android.so",
+                                  "sha256":  "fc0d03cee16880df87e24748ac689cfb39066e3cdc88c087e95f27533509e1a6",
+                                  "size":  2248936,
+                                  "source_url":  "https://github.com/ProjectLightGun/projectlightgun-cores/releases/download/mesen-s-v1/mesen-s-v1-source.tar.gz",
+                                  "source_sha256":  "802d5e73f9a230e632011f6799de54a23e90703a492ddf54769f5a6c11d7e8c3",
+                                  "source_size":  659944,
+                                  "license":  "GPL-3.0-or-later",
+                                  "license_url":  "https://github.com/ProjectLightGun/projectlightgun-cores/blob/main/cores/mesen-s/LICENSE",
+                                  "upstream":  "https://github.com/libretro/Mesen-S",
+                                  "upstream_commit":  "1d475abd174d16ecb1fb030961ff26076ab51ee6"
+                              }
+              }
+}
