@@ -28,6 +28,9 @@ Each core is free software under the GNU General Public License. This repository
 The app also includes one small program of ours, the **core runner**, which runs a core in its own process and
 talks to the app over a local connection. It is free software too (GPL-3.0-or-later), and its complete source
 is in the `core-runner/` folder of this repository (licence: `core-runner/LICENSE`).
+Everything the app and the runner send each other is listed in `core-runner/CONTRACT.md`.
+
+You may build and use modified versions of any core or of the runner, under the terms of its licence.
 
 See [SOURCES.md](SOURCES.md) for versions, upstream commits and checksums, and `manifest.json` for the
 list the app reads. To ask for anything else, open an issue on this repository.
