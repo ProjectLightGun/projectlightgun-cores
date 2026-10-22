@@ -25,6 +25,10 @@ Each core is free software under the GNU General Public License. This repository
 - the **complete corresponding source code** (also a Release asset), including our modifications,
 - the licence text (`cores/<core>/LICENSE`, copied to `LICENSE-<core>.txt` in this folder).
 
+The app also includes one small program of ours, the **core runner**, which runs a core in its own process and
+talks to the app over a local connection. It is free software too (GPL-3.0-or-later), and its complete source
+is in the `core-runner/` folder of this repository (licence: `core-runner/LICENSE`).
+
 See [SOURCES.md](SOURCES.md) for versions, upstream commits and checksums, and `manifest.json` for the
 list the app reads. To ask for anything else, open an issue on this repository.
 
@@ -36,6 +40,7 @@ list the app reads. To ask for anything else, open an issue on this repository.
   binary and the source archive, and how to rebuild it.
 - `cores/<core>/` - the licence text and the build script we use for that core.
 - `LICENSE-<core>.txt` - copies of the licence texts.
+- `core-runner/` - source of the core runner program that ships inside the app.
 - **Releases** - one release per core version (tag `<core>-v<n>`), holding the library and its complete
   source archive. Older versions are kept, because older app builds still download them.
 

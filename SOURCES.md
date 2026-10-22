@@ -45,3 +45,13 @@
 - Binary: release `mesen-s-v1` asset `libmesen-s_libretro_android.so` (SHA-256 `fc0d03cee16880df87e24748ac689cfb39066e3cdc88c087e95f27533509e1a6`)
 - Rebuild: the unpacked source archive is the complete, already-patched tree. Toolchain: Windows host, Android NDK r27, CMake 3.22 + Ninja, target arm64-v8a / android-29. `cores/mesen-s/build-script.ps1` is the exact script we run (configure flags, link steps); it was written to run from our private app repo, so treat it as the recipe - its patch-copy step is not needed with this archive.
 
+## Core runner - `core-runner` (ships inside the app, not downloaded)
+
+- Licence: GPL-3.0-or-later (full text: `core-runner/LICENSE`). Written by Project Light Gun; the one third-party
+  file is `src/libretro.h` (MIT, RetroArch team).
+- Complete source: the `core-runner/` folder of this repository (source files: dump.c, dump.h, gpu_test.c, gpu_test.h, hw_render.c, hw_render.h, input.c, input.h, libretro.h, protocol.h, runner.c).
+  It is the exact source of the binary in the app: app-repo commit `7a818d6ea7d68e1170330232aaf168ae988a9dd2`.
+- Binary in the app: `libcorerunner.so` (Android arm64 executable), SHA-256 `6456e297c5548a7da2ba486d992d14f85678475e1e52d2252023da5acd1dd442`
+- Rebuild: `core-runner/build-android.ps1` (Android NDK r27 clang, arm64-v8a / android-32).
+- What it does: loads one core, runs one game, talks to the app over one local connection using only the
+  messages in `src/protocol.h`.
