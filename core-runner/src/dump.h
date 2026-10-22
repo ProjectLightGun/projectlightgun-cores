@@ -1,3 +1,6 @@
+/* SPDX-License-Identifier: GPL-3.0-or-later
+ * Copyright (C) 2026 Project Light Gun
+ */
 #ifndef PLG_DUMP_H
 #define PLG_DUMP_H
 #include <stddef.h>

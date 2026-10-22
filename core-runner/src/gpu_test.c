@@ -1,3 +1,6 @@
+/* SPDX-License-Identifier: GPL-3.0-or-later
+ * Copyright (C) 2026 Project Light Gun
+ */
 /*
  * Project Light Gun core runner - the early GPU test (plan S4).
  *

@@ -1,3 +1,6 @@
+/* SPDX-License-Identifier: GPL-3.0-or-later
+ * Copyright (C) 2026 Project Light Gun
+ */
 /*
  * Project Light Gun core runner - test-mode output: pictures as PNG, sound as WAV.
  * Only used by --test (running a game on its own from the command line). Tiny on purpose:
